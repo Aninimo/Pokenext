@@ -1,0 +1,95 @@
+:root{
+  --blue: #00B4D8;
+  --red: #EF233C;
+  --white: #EDF2F4;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--blue);
+  font-family: 'Poppins',sans-serif;
+}
+
+h4, h1{
+  margin-bottom: 1rem;
+}
+
+ul{
+   list-style: none;
+}
+
+
+a{
+  width: 80px; 
+  height: 50px;
+  background: var(--red);
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  border-radius: .5rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.title{
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.containerSearch{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.containerSearch > input{
+  padding: 1rem 1.5rem;
+  border-radius: .5rem;
+}
+
+.containerSearch > button{
+  padding: 1rem 1.5rem;
+  border-radius: .5rem;
+  border: none;
+  background: var(--red);
+  color: #fff;
+  cursor: pointer;
+
+  transition: .5s;
+}
+
+
+.containerSearch > button:hover{
+  background: #D90429;
+}
+
+.pokeContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.pokeCard{
+  width: 250px;
+  height: 315px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  border-radius: .5rem;
+  background: var(--white);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 8px 8px 8px 7px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
