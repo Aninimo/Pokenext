@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Character({data}){
   const { name, id, types, type} = data
   return(
-    <div className="PokeContainer">
+    <div className="pokeContainer">
       <h1>Details</h1>
 
       <div className="pokeCard">
